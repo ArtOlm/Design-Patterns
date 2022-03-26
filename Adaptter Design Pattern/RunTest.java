@@ -10,7 +10,7 @@ public class RunTest{
 		myPhone.ring();
 		//both interfaces functionality are joined
 		Phone wierdPhone = new CarAdapter(myCar);
-		//the car functionality and the car functionality are joined
+		//the car functionality and the phone functionality are joined
 		System.out.println("Phone is ringing");
 		wierdPhone.ring();
 	}
