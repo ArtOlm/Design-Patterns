@@ -1,7 +1,7 @@
 @ECHO OFF
 Echo RUNNING TEST
 ECHO -------------------------------
-javac RunTest.java
-java RunTest
+javac ADPRunTest.java
+java ADPRunTest
 ECHO -------------------------------
 ECHO TEST IS DONE!

@@ -3,15 +3,40 @@ public abstract class AthleteRoutine{
 	public AthleteRoutine(){}
 
 	public void wakeUp(){
-		System.out.println("The Athlete woke up");
+		System.out.println("06:00 Wake up");
 	}
-	public void eatMeal(){
-		System.out.println("The athlete eats breakfast");
-	}
-	public abstract void practice();
+
 	public abstract void run();
+
+	public void breakFast(){
+		System.out.println("07:30 Eat breakfast");
+	}
+
+	public abstract void practice();
+
+	public void lunch(){System.out.println("012:00 Eat lunch");	}
+
 	public abstract void liftWeights();
+
+	public void dinner(){System.out.println("17:00 Eat Dinner");}
+
+	public abstract void individualCoaching();
+
 	public void goToSleep(){
-		System.out.println("The athlete goes to sleep, to recover for the next day");
+		System.out.println("22:30 Bed time");
+		System.out.println("	Today's pain will be tomorrow's glory!!");
+	}
+
+	public void printSchedule(){
+		System.out.println("-----------------------------------");
+		wakeUp();
+		run();
+		breakFast();
+		practice();
+		lunch();
+		liftWeights();
+		dinner();
+		individualCoaching();
+		goToSleep();
 	}
 }
