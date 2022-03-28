@@ -20,8 +20,6 @@ public abstract class AthleteRoutine{
 
 	public void dinner(){System.out.println("17:00 Eat Dinner");}
 
-	public abstract void individualCoaching();
-
 	public void goToSleep(){
 		System.out.println("22:30 Bed time");
 		System.out.println("	Today's pain will be tomorrow's glory!!");
@@ -36,7 +34,6 @@ public abstract class AthleteRoutine{
 		lunch();
 		liftWeights();
 		dinner();
-		individualCoaching();
 		goToSleep();
 	}
 }
